@@ -3,63 +3,111 @@ body {
   color: #2e2f42;
   font-size: 16px;
   line-height: 0.875;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
-.header-one {
-  font-size: 56px;
-  line-height: 1.0714;
-  letter-spacing: 2%;
+address {
+  font-style: normal;
 }
 
-.header-two {
-  font-size: 36px;
-  letter-spacing: 2%;
+address > a:hover {
+  color: #404bbf;
 }
 
-.header-three {
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 2%;
+ul {
+  list-style-type: none;
 }
 
-.small-text {
-  font-size: 12px;
-  line-height: 1.1667;
-  letter-spacing: 4%;
+a {
+  text-decoration: none;
 }
 
-.body-medium {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
-
-.button-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 4%;
-}
-
-.link-text {
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 4%;
-}
-
-#section-one {
-  color: #ffffff;
-  background-color: #2e2f42;
-}
-
-#section-three {
-  background-color: #f4f4fd;
+nav a:hover {
+  color: #404bbf;
 }
 
 button {
   cursor: pointer;
 }
 
-ul {
-  list-style-type: none;
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+}
+
+.header-one {
+  font-size: 56px;
+  line-height: 1.0714;
+  letter-spacing: 0.02em;
+}
+
+.header-two {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.header-three {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.body {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.small-text {
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.04em;
+}
+
+.body-medium {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.button-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.link-text {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+}
+
+.color-navy {
+  color: #2e2f42;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-iris {
+  color: #4d5ae5;
+}
+
+.bgcolor-navy {
+  background-color: #2e2f42;
+}
+
+.bgcolor-cloud {
+  background-color: #f4f4fd;
+}
+
+.bgcolor-iris {
+  background-color: #4d5ae5;
 }
