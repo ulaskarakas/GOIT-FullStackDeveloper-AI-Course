@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
   font-size: 16px;
-  line-height: 0.875;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -28,6 +28,10 @@ nav a:hover {
 
 button {
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #404bbf;
 }
 
 .logo {
@@ -63,17 +67,14 @@ button {
   letter-spacing: 0.02em;
 }
 
+.body-medium {
+  font-weight: 500;
+}
+
 .small-text {
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.04em;
-}
-
-.body-medium {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .button-text {
